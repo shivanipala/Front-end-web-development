@@ -1,0 +1,33 @@
+<!DOCTYPE student[
+<!ELEMENT student (enroll,name,phone,email)>
+<!ELEMENT enroll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+]>
+<student>
+    <enroll>170130116026</enroll>
+    <name>Shivani</name>
+    <phone>9898959654</phone>
+    <email>shivanipala111@gmail.com</email>
+    <br/>
+
+    <enroll> 170130116018</enroll>
+    <name> preetha</name>
+    <phone>7585623148</phone>
+    <br/>
+    
+  
+    <enroll>170130116049</enroll>
+    <name>jinal</name>
+    <phone>8565964712</phone>
+    <email>jinal@gmail.com</email>
+    <br/>
+
+    <enroll>170130116020</enroll>
+    <name>nirali</name>
+    <phone>9632145870</phone>
+    <email>nirali@gmail.com</email>
+    <br/>
+</student>

@@ -1,0 +1,43 @@
+body{
+    background: #659ec7;
+}
+div img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.stuff h1{
+    float: right;
+    text-align: left;
+    font-size: 60px;
+    background-size: 80%;
+    
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif
+}
+.head{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lefts{
+    float: left;
+    padding-right: 40px;
+}
+.rights{
+    float: left;
+}
+ul{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+hr{
+    border: grey 5px solid;
+    width: 100%
+}
+li{
+    list-style: circle;
+}
+.

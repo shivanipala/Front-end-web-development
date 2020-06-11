@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!ELEMENT students (student)*>
+<!ELEMENT student (enroll,name,phone,email)>
+<!ELEMENT enroll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+

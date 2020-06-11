@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE student SYSTEM "prac14.dtd">
+<students>
+    <student>
+        <enroll>170130116026</enroll>
+        <name>Shivani</name>
+        <phone>9898959654</phone>
+        <email>shivanipala111@gmail.com</email>
+    </student>
+    <student>
+        <enroll>170130116018</enroll>
+        <name>preetha</name>
+        <phone>7585623148</phone>
+        <email>jdnwejfn</email>
+    </student>
+    <student>
+        <enroll>170130116049</enroll>
+        <name>jinal</name>
+        <phone>8565964712</phone>
+        <email>jinal@gmail.com</email>
+    </student>
+    <student>
+        <enroll>170130116020</enroll>
+        <name>nirali</name>
+        <phone>9632145870</phone>
+        <email>nirali@gmail.com</email>
+    </student>
+</students>

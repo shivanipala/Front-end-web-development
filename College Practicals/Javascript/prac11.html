@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form using Javascript</title>
+    </head>
+    <body>
+        <h1><center> Form</center></h1>
+        <form action="" name="f1">
+            <table>
+                <tr>
+                    <td>Enter Name</td>
+                    <td><input type="text" name="n"></td>
+                </tr>
+                <tr>
+                    <td>Enter Email</td>
+                    <td><input type="email" name="e"></td>
+                </tr>
+                <tr>
+                    <td>Enter Mobile No.</td>
+                    <td><input type="text" name="m"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="r" id="">Male</td>
+                    <td><input type="radio" name="r">Female</td>
+                </tr>
+                <tr>
+                    <td>Favourite Color</td>
+                    <td><select name="s" id="">
+                        <option value="red">Red</option>
+                        <option value="pink">Pink</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="Yellow">Yellow</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                <center><input type="button" onclick="sub(f1)" value="click me"></center></td>
+                </tr>
+            </table>
+        </form>
+        <script>
+            function sub(f1){
+                document.write(f1.e.value)
+            }
+        </script>
+    </body>
+</html>

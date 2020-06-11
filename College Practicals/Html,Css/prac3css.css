@@ -1,0 +1,27 @@
+#css{
+    padding-bottom: 0px;
+}
+
+h3{
+    padding-top: -5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+body{
+    background-color: aquamarine;
+}

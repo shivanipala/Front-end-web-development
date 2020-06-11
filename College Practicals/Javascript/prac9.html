@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator using javascript</title>
+        
+    </head>
+    <body>
+        <h1><center>Calculator</center></h1>
+        <form name="form1">
+            Enter First Number  <input type="text" placeholder="Enter First Number" name="n1"><br>
+            Enter Second Number <input type="text" placeholder="Enter Second Number" name="n2"><br>
+            <input type="button" value="click me" onclick = "calculate(parseInt(form1.n1.value),parseInt(form1.n2.value))">
+        </form>
+        <script>
+            function calculate(x,y)
+            {
+                var sum,sub,mul,div;
+                var a= x;
+                var b= y;
+                sum=a+b;
+                sub=a-b;
+                mul=a*b;
+                div=a/b;
+                document.write("<h2><center>Result<?center></h2>")
+                document.write(a + " + "+b+"= "+sum+"<br>");
+                document.write(a + " - "+b+"= "+sub+"<br>");
+                document.write(a + " * "+b+"= "+mul+"<br>");
+                document.write(a + " / "+b+"= "+div+"<br>");
+            }
+        </script>
+        
+    </body>
+</html>
